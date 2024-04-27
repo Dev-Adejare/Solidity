@@ -13,9 +13,22 @@ contract Dapps {
         //statement block  => Used to retrieve an information
     }
 
+    // function store() {
+    //     uint storage;
+    // }
+
+
+    // function set(uint x) {
+    //     storage = x
+    // }
+
+
     function store() {
-        uint storage;
+        string lastName;
     }
 
+    function set(string Bayuu) {
+        storage = "Bayuu"
+    }
 
 }
