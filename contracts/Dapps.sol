@@ -13,22 +13,27 @@ contract Dapps {
         //statement block  => Used to retrieve an information
     }
 
-    // function store() {
-    //     uint storage;
-    // }
-
-
-    // function set(uint x) {
-    //     storage = x
-    // }
-
-
     function store() {
-        string lastName;
+        uint storage;
     }
 
-    function set(string Bayuu) {
-        storage = "Bayuu"
+
+    function set(uint x) view public {
+        storage = x
     }
+
+    function get() public {
+        return storage
+
+    }
+
+
+    // function store() {
+    //     string lastName;
+    // }
+
+    // function set(string Bayuu) {
+    //     storage = "Bayuu"
+    // }
 
 }
